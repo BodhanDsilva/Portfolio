@@ -1,0 +1,112 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 80vh;
+  background-color: #f4f4f4;
+}
+
+.content {
+  max-width: 50%;
+}
+
+.content h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.content p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.image-container {
+  max-width: 40%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .content {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .image-container {
+    max-width: 100%;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
