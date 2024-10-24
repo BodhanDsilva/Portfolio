@@ -48,9 +48,30 @@ nav ul li a {
 }
 
 .content h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #333;
+  text-align: left;
+  line-height: 1.4;
 }
+
+/* Bold text */
+.bold {
+  font-weight: 700; /* Bold */
+}
+
+/* Highlighted text */
+.highlight {
+  font-weight: 700;
+  color: #000; /* Black text */
+}
+
+/* Outline style for "Developer" */
+.outline {
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 2px black; /* Stroke around the text */
+}
+
 
 .content p {
   font-size: 1.2rem;
