@@ -4,26 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>BodhanDSilva's Portfolio </title>
+  <title>BodhanDSilva's Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
   <header>
     <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Skills</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact Me</a></li>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="hero">
+  <section id="home" class="hero">
     <div class="content">
-      <h1>Hello I'm Bodhan D Silva,<br>Backend Developer</h1>
+      <h1>Hello, I'm Bodhan D Silva,<br>Backend Developer</h1>
       <p>Based in <strong>India</strong></p>
       <div class="social-icons">
         <a href="#"><i class="fa fa-twitter"></i></a>
@@ -32,134 +31,76 @@
       </div>
     </div>
     <div class="image-container">
-      <img src="images/Banner.png" alt="Dev Image">
+      <img src="images/Banner.png" alt="Developer Image">
     </div>
   </section>
 
-   <section class="experience-section">
-        <h2>My <span>Experience</span></h2>
-        
-        <div class="experience-item google">
-            <div class="experience-logo">
-                <img src="" alt="Google Logo">
-            </div>
-            <div class="experience-details">
-                <h3>Lead Software Engineer at Google</h3>
-                <p>As a Senior Software Engineer at Google, I played a pivotal role in developing innovative solutions for Google's core search algorithms. Collaborating with a dynamic team of engineers, I contributed to the enhancement of search accuracy and efficiency, optimizing user experiences for millions of users worldwide.</p>
-            </div>
-            <div class="experience-date">
-                <span>Nov 2019 - Present</span>
-            </div>
-        </div>
-
-        <div class="experience-item youtube">
-            <div class="experience-logo">
-                <img src="" alt="YouTube Logo">
-            </div>
-            <div class="experience-details">
-                <h3>Software Engineer at YouTube</h3>
-                <p>At YouTube, I served as a Software Engineer, focusing on the design and implementation of backend systems for 
-                  the social media giant's dynamic platform. Working on projects that involved large-scale data processing and 
-                  user engagement features, I leveraged my expertise to ensure seamless functionality and scalability.</p>
-            </div>
-            <div class="experience-date">
-                <span>Jan 2017 - Oct 2019</span>
-            </div>
-        </div>
-
-        <div class="experience-item apple">
-            <div class="experience-logo">
-                <img src="" alt="Apple Logo">
-            </div>
-            <div class="experience-details">
-                <h3>Junior Software Engineer at Apple</h3>
-                <p>During my tenure at Apple, I held the role of Software Architect, where I played a key role in shaping the 
-                  architecture of mission-critical software projects. Responsible for designing scalable and efficient systems, 
-                  I provided technical leadership to a cross-functional team.</p>
-            </div>
-            <div class="experience-date">
-                <span>Jan 2016 - Dec 2017</span>
-            </div>
-        </div>
-    </section>
-<section class="about-me-section" class="body-about-me">
-        <div class="about-me-container">
-            <div class="about-me-image">
-                <img src="images/Group 1000015845.png" alt="Illustration of person">
-            </div>
-            <div class="about-me-content">
-                <p>
-                    I'm a passionate, self-proclaimed designer who specializes in full stack development (React.js & Node.js). I am very enthusiastic about bringing the technical and visual aspects of digital products to life. User experience, pixel perfect design, and writing clear, readable, highly performant code matters to me.
-                </p>
-                <p>
-                    I began my journey as a web developer in 2015, and since then, I’ve continued to grow and evolve as a developer, taking on new challenges and learning the latest technologies along the way. Now, in my early thirties, 7 years after starting my web development journey, I’m building cutting-edge web applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss, Supabase, and much more.
-                </p>
-                <p>
-                    When I’m not in full-on developer mode, you can find me hovering around on Twitter or on Indie Hacker, witnessing the journey of early startups or enjoying some free time. You can follow me on Twitter where I share tech-related bites and build in public, or you can follow me on GitHub.
-                </p>
-            </div>
-        </div>
-    </section>
-    
-    <section class="projects-section">
-      <h2>My <span>Projects</span></h2>
-      <div class="projects-grid">
-          <div class="project-item">
-              <img src="images/project1.png" alt="Crypto Screener Application">
-              <div class="project-info">
-                  <h3>01 Crypto Screener Application</h3>
-                  <p>I'm Even Shah Lorem Ipsum is simply dummy text of the printing industry.</p>
-              </div>
-          </div>
-          <div class="project-item">
-              <img src="images/project2.png" alt="Euphoria - Ecommerce (Apparels) Website Template">
-              <div class="project-info">
-                  <h3>02 Euphoria - Ecommerce (Apparels) Website Template</h3>
-                  <p>I'm Even Shah Lorem Ipsum is simply dummy text of the printing industry.</p>
-              </div>
-          </div>
-          <div class="project-item">
-              <img src="images/project3.png" alt="Blog Website Template">
-              <div class="project-info">
-                  <h3>03 Blog Website Template</h3>
-                  <p>I'm Even Shah Lorem Ipsum is simply dummy text of the printing industry.</p>
-              </div>
-          </div>
+  <section id="about" class="about-me-section">
+    <div class="about-me-container">
+      <div class="about-me-image">
+        <img src="images/Group.png" alt="Illustration of Bodhan">
       </div>
+      <div class="about-me-content">
+        <p>
+          I'm a passionate full-stack developer specializing in React.js and Node.js. I focus on user experience, pixel-perfect design, and clean, readable, performant code.
+        </p>
+        <p>
+          My journey as a web developer began in 2015. Over the years, I’ve mastered various technologies such as Next.js, TypeScript, and Tailwind CSS, to build modern, scalable web applications.
+        </p>
+      </div>
+    </div>
   </section>
 
-  <section class="contact-section">
-    <div class="contact-form">
-        <form action="#" method="POST">
-            <input type="text" name="name" placeholder="Your name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="url" name="website" placeholder="Your website (If exists)">
-            <textarea name="message" placeholder="How can I help?*" required></textarea>
-            <button type="submit">Get In Touch</button>
-        </form>
-        <div class="social-icons">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-reddit"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-discord"></i></a>
+  <section id="projects" class="projects-section">
+    <h2>My <span>Projects</span></h2>
+    <div class="projects-grid">
+      <div class="project-item">
+        <img src="images/project1.png" alt="Crypto Screener Application">
+        <div class="project-info">
+          <h3>Crypto Screener Application</h3>
+          <p>A real-time cryptocurrency screener application built using React and Node.js.</p>
         </div>
+      </div>
+      <div class="project-item">
+        <img src="images/project2.png" alt="Ecommerce Website">
+        <div class="project-info">
+          <h3>Ecommerce Website Template</h3>
+          <p>A fully responsive ecommerce website template for apparel stores.</p>
+        </div>
+      </div>
+      <div class="project-item">
+        <img src="images/project3.png" alt="Blog Website Template">
+        <div class="project-info">
+          <h3>Blog Website Template</h3>
+          <p>A modern blog website template featuring content management system (CMS) integration.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <div class="contact-form">
+      <form action="#" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="How can I help?" required></textarea>
+        <button type="submit">Get In Touch</button>
+      </form>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-reddit"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-discord"></i></a>
+      </div>
     </div>
     <div class="contact-info">
-        <h2>Let's <span>talk</span> for Something Special</h2>
-        <p>
-            I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.
-        </p>
-        <p>
-            <strong>youremail@gmail.com</strong><br>
-            <strong>1234567890</strong>
-        </p>
+      <h2>Let's <span>Talk</span></h2>
+      <p>Email: <strong>youremail@gmail.com</strong><br>Phone: <strong>1234567890</strong></p>
     </div>
-</section>
+  </section>
 
-  
-                    
   <footer>
-    <p>&copy; 2024 Personal Portfolio</p>
+    <p>&copy; 2024 BodhanDSilva's Portfolio</p>
   </footer>
 
   <script src="script.js"></script>
