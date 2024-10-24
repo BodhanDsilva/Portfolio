@@ -100,7 +100,7 @@ nav ul li a {
 
 .experience-section {
   padding: 50px 20px;
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
   background-color: #1d1d1d;
 }
