@@ -154,23 +154,6 @@ h2 span {
   color: #b0b0b0;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .experience-item {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-  }
-
-  .experience-details {
-      padding: 20px 0;
-  }
-
-  .experience-date {
-      margin-top: 10px;
-  }
-
-
 .about-me-section {
   padding: 50px;
   background-color: #fff;
