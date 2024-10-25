@@ -130,6 +130,7 @@ h2 span {
   padding: 20px;
   margin-bottom: 20px;
   border: #fff;
+  border-width: 3px;
   transition: background-color 0.3s;
 }
 
@@ -162,6 +163,22 @@ h2 span {
   white-space: nowrap;
   color: #b0b0b0;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .experience-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .experience-details {
+        padding: 20px 0;
+    }
+
+    .experience-date {
+        margin-top: 10px;
+    }
 
 .about-me-section {
   padding: 50px;
